@@ -5,6 +5,7 @@ import cow from './svg/cow.svg';
 import bird from './svg/bird.svg';
 import heart from './svg/heart.svg';
 
+
 export default function Animal({type}){
     const svgMap = {cat,dog,cow,bird};
     const [size,setSize] =useState(30);
