@@ -1,0 +1,17 @@
+.animal-list{
+   
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.animal {
+    display: flex;
+    height: 150px;
+    cursor: pointer;
+    box-shadow: inset -2px 3px 20px #8BC34A;
+    padding: 11px;
+}
+.heart{
+    position: absolute;
+}
